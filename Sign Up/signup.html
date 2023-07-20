@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up Page</title>
+	<link rel="stylesheet" href="design.css">
+</head>
+
+<body>
+	<div class="container">
+		<form class="form" id ="form">
+			<h1> Sign Up </h1>
+
+			<div class="form-control">
+				<label for="username"> Username: </label>
+				<input type="text" id="username"  placeholder="Enter username" required>
+				<small> Error message </small>
+			</div>
+			
+			<div class="form-control">
+				<label for="email"> Email: </label>
+				<input type="text" id="email" name="email" placeholder="Enter email" required>
+				<small> Error message </small>
+			</div>	
+			
+			<div class="form-control">
+				<label for="password"> Password: </label>
+				<input type="password" id="password" name="password" placeholder="Enter password" required>
+				<small> Error message </small>
+			</div>
+			
+			<div class="form-control">
+				<label for="password2"> Confirm Password: </label>
+				<input type="password" id="password2" name="confirm" placeholder="Confirm password" required>
+				<small> Error message </small>
+			</div>					
+		<button type="button"> Sumbit </button>
+		</form>
+	</div>
+	
+	<script src="action.js"></script> 
+	
+  </body>
+
+</html>
